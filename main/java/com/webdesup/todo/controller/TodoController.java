@@ -20,7 +20,7 @@ public class TodoController {
         return todoService.create(todo);
     }
 
-    @GetMapping("/list")
+    @GetMapping()
     List<Todo> list(){
         return todoService.list();
     }
